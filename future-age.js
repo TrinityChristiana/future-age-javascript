@@ -22,7 +22,10 @@ for(i = 0; i < month.length; i++){
     };
 };
 
-// Displays possible ages in chosen year
+//Displays chosen year and month
+console.log(`Birth month/year is: ${birthMoNum}/${birthYr} | Chosen month and year is: ${futureMonth} ${futureYr}`)
+
+
 console.log(`I will be either ${futureAge - 1} or ${futureAge} in the year ${futureYr}`);
 
 //Displays what age is acording to entered birth year, birth month, future year, and future month. 
